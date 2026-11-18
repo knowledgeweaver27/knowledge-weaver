@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Knowledge Weaver by Apna Shiksha Kendra — CBSE Physics notes, study material and practice resources for Classes 11 and 12.">
+  <meta name="theme-color" content="#111827">
+  <title>Knowledge Weaver | Apna Shiksha Kendra</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Knowledge Weaver home">
+        <span class="brand-mark">KW</span>
+        <span class="brand-copy"><strong>KNOWLEDGE WEAVER</strong><small>APNA SHIKSHA KENDRA</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#study">Study Material</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a class="nav-cta" href="#study">Explore Notes <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> LEARN · PRACTICE · ACHIEVE</span>
+          <h1>Build strong concepts.<br><span>Shape your future.</span></h1>
+          <p class="hero-lead">Clear explanations, well-organised Physics notes and useful practice resources for curious learners.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#study">Explore study material <span>→</span></a>
+            <a class="button button-ghost" href="#about">Know about us</a>
+          </div>
+          <div class="hero-proof">
+            <span class="proof-icon">✦</span>
+            <p><strong>Made for learning</strong><br><small>CBSE-focused resources for Classes 11 &amp; 12</small></p>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Physics learning illustration">
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="atom-core">⚛</div>
+          <div class="float-card card-top"><span class="mini-icon">∑</span><span><b>Concepts</b><small>Understand the why</small></span></div>
+          <div class="float-card card-bottom"><span class="mini-icon coral">λ</span><span><b>Practice</b><small>Learn by solving</small></span></div>
+          <div class="formula formula-one">F = ma</div>
+          <div class="formula formula-two">E = mc²</div>
+        </div>
+      </div>
+      <div class="hero-bottom container">
+        <span>YOUR DIGITAL LEARNING SPACE</span><span class="hero-line"></span><span>KNOWLEDGE WEAVER</span>
+      </div>
+    </section>
+
+    <section class="quick-stats container" aria-label="Platform highlights">
+      <div><strong>02</strong><span>Senior classes</span></div>
+      <div><strong>CBSE</strong><span>Learning focus</span></div>
+      <div><strong>PDF</strong><span>Study resources</span></div>
+      <div><strong>ASK</strong><span>Our learning initiative</span></div>
+    </section>
+
+    <section class="section container" id="study">
+      <div class="section-heading">
+        <div><span class="section-kicker">THE LEARNING LIBRARY</span><h2>Explore study material</h2><p>Choose your class and find resources for your learning journey.</p></div>
+        <span class="section-index">01 / LIBRARY</span>
+      </div>
+      <div class="filter-bar">
+        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search chapters or topics..." aria-label="Search study material"></label>
+        <div class="filter-buttons" role="group" aria-label="Filter by class">
+          <button class="filter-button active" data-filter="all">All</button>
+          <button class="filter-button" data-filter="11">Class 11</button>
+          <button class="filter-button" data-filter="12">Class 12</button>
+        </div>
+      </div>
+      <div class="resource-grid" id="resourceGrid">
+        <article class="resource-card" data-class="11" data-search="class 11 physics units measurements motion laws work energy power">
+          <div class="resource-top"><span class="class-tag">CLASS 11 · PHYSICS</span><span class="resource-symbol blue">↗</span></div>
+          <div class="resource-visual visual-blue"><span>01</span><b>MECHANICS</b><i>F = ma</i></div>
+          <div class="resource-body"><h3>Mechanics &amp; Motion</h3><p>Build foundations in motion, forces, energy and the physical world.</p><div class="resource-meta"><span>Study collection</span><span class="status">Coming soon</span></div></div>
+        </article>
+        <article class="resource-card" data-class="11" data-search="class 11 physics thermal properties fluids waves oscillations">
+          <div class="resource-top"><span class="class-tag">CLASS 11 · PHYSICS</span><span class="resource-symbol purple">↗</span></div>
+          <div class="resource-visual visual-purple"><span>02</span><b>THERMAL &amp; WAVES</b><i>λ = v / f</i></div>
+          <div class="resource-body"><h3>Thermal Physics &amp; Waves</h3><p>Explore heat, thermodynamics, oscillations and wave motion.</p><div class="resource-meta"><span>Study collection</span><span class="status">Coming soon</span></div></div>
+        </article>
+        <article class="resource-card" data-class="12" data-search="class 12 physics electrostatics current electricity magnetism electromagnetic induction">
+          <div class="resource-top"><span class="class-tag">CLASS 12 · PHYSICS</span><span class="resource-symbol coral">↗</span></div>
+          <div class="resource-visual visual-coral"><span>03</span><b>ELECTRICITY</b><i>V = IR</i></div>
+          <div class="resource-body"><h3>Electricity &amp; Magnetism</h3><p>Study electric fields, circuits, magnetic effects and induction.</p><div class="resource-meta"><span>Study collection</span><span class="status">Coming soon</span></div></div>
+        </article>
+        <article class="resource-card" data-class="12" data-search="class 12 physics optics ray optics wave optics modern physics atoms nuclei semiconductors">
+          <div class="resource-top"><span class="class-tag">CLASS 12 · PHYSICS</span><span class="resource-symbol green">↗</span></div>
+          <div class="resource-visual visual-green"><span>04</span><b>OPTICS &amp; MODERN</b><i>n = c / v</i></div>
+          <div class="resource-body"><h3>Optics &amp; Modern Physics</h3><p>Understand light, atoms, nuclei and semiconductor electronics.</p><div class="resource-meta"><span>Study collection</span><span class="status">Coming soon</span></div></div>
+        </article>
+      </div>
+      <p class="empty-state" id="emptyState" hidden>No matching resources found. Try another search.</p>
+      <div class="library-note"><span>✦</span><p><strong>New resources are being prepared.</strong> Chapter-wise notes and sample PDFs will be added here as they are published.</p></div>
+    </section>
+
+    <section class="learning-band">
+      <div class="container learning-band-inner">
+        <div><span class="section-kicker light">A BETTER WAY TO LEARN</span><h2>Clarity first.<br>Confidence follows.</h2></div>
+        <p>Learning Physics becomes easier when concepts are explained step by step, supported by diagrams, derivations and meaningful practice.</p>
+        <a class="button button-light" href="#contact">Get in touch <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="section about-section container" id="about">
+      <div class="about-mark"><span>ASK</span><small>APNA SHIKSHA KENDRA</small></div>
+      <div class="about-copy"><span class="section-kicker">ABOUT KNOWLEDGE WEAVER</span><h2>Learning resources with a purpose.</h2><p>Knowledge Weaver is an educational initiative by Apna Shiksha Kendra, created to make structured and student-friendly learning resources easier to access.</p><p>Our initial focus is CBSE Physics for Classes 11 and 12, with scope to expand into more subjects and classes.</p></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div><span class="section-kicker light">STAY CONNECTED</span><h2>Have a question?</h2><p>For study material enquiries, suggestions or collaboration, get in touch.</p></div>
+        <a class="button button-light" href="mailto:">Contact the team <span>→</span></a>
+      </div>
+      <div class="container contact-hint">Before publishing, add your preferred contact email to the contact link in <code>index.html</code>.</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark">KW</span><span class="brand-copy"><strong>KNOWLEDGE WEAVER</strong><small>APNA SHIKSHA KENDRA</small></span></a>
+      <p>© <span id="year"></span> Knowledge Weaver. All rights reserved.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
